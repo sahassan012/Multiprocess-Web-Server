@@ -17,11 +17,11 @@ For each client, the program looks for the path that was requested and the follo
 Finally, the connection is closed.
 
 ## How to run(from command line) 
-The makefile may be used by entering:
+To create an executable file, use Makefile by running:
 ```console
 make
 ```
-This should create an executable "server" file
+This should create an executable "server" file in the program directory
 
 You may then run the server by entering:
 ```console
