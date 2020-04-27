@@ -3,9 +3,9 @@
 This program serves files(html, txt, pdf, png, jpeg, jpg, and gif) using HTTP protocol and displays them. It also uses multi-threading to handle multiple client connections.
 
 ## How it works
-Two arguements are taken from the command line :
+Two arguments are taken from the command line:
  - Port number to listen for incomming connections
- - Directory from which to serve files(document root) 
+ - Directory name or path from which to serve files(document root) 
 
 For each client, the program looks for the path that was requested and the following possibilities are considered:
  - If the path is valid and a file, send a response back to client with that file
